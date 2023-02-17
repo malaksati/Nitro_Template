@@ -144,6 +144,50 @@ header nav ul li a.active,
 header nav ul li a:hover {
     color: white;
 }
+header nav ul li a i {
+    font-size: 14px;
+}
+header nav ul li.arr {
+    position: relative;
+}
+header nav ul li.arr ul {
+    width: 200px;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    background-color: white;
+    border-top: 2px solid var(--main-color);
+    
+}
+header nav ul li.arr ul.menu {
+    display: none;
+    position: absolute;
+    left: 157%;
+    top: 215px;
+}
+header nav ul li.arr ul li a {
+    padding: 10px 20px 10px 10px;
+    color: black;
+    transition: 0.3s all;
+}
+header nav ul li.arr ul li a:hover {
+    background-color: #eff1f3;
+    cursor: pointer;
+}
+header nav ul li.arr ul.more {
+    display: none;
+}
+header nav ul li.arr ul.more li.menuu a i {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+}
+header nav ul li.arr ul.more li.menuu.mm:hover ul.menu {
+    display: flex;
+}
+header nav ul li.arr:hover ul.more {
+    display: flex;
+}
 /* End Header */
 .landing {
     min-height: 100vh;
