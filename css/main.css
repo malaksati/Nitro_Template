@@ -793,6 +793,7 @@ header nav ul li a:hover {
     .section .container {
         flex-direction: column-reverse;
         gap: 30px;
+        padding: 20px;
     }
     .section .content {
         flex-direction: column;
