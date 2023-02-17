@@ -802,8 +802,8 @@ header nav ul li a:hover {
     .section .box .images {
         margin: auto;
     }
-    .section .image {
-        max-width: 100%;
+    .section .image img {
+        max-width: 90%;
     }
 }
 /* End Section */
